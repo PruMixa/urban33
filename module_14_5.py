@@ -11,7 +11,7 @@ connection = sqlite3.connect('not_telegram.db')
 cursor = connection.cursor()
 initiate_db()
 
-api = '7809070886:AAG7LEYnKzkVEaRkBfjJgCGMoMvDkBLzcnM'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
